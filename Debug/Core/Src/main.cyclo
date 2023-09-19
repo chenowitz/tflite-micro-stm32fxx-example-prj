@@ -1,0 +1,45 @@
+error_reporter.h:37:11:tflite::ErrorReporter::~ErrorReporter()	1
+error_reporter.h:37:11:virtual tflite::ErrorReporter::~ErrorReporter()	1
+micro_error_reporter.h:27:3:tflite::MicroErrorReporter::~MicroErrorReporter()	1
+micro_error_reporter.h:27:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	1
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+flatbuffers.h:70:13:void flatbuffers::EndianCheck()	1
+flatbuffers.h:2418:18:const uint8_t* flatbuffers::Table::GetVTable() const	1
+flatbuffers.h:2424:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+schema_generated.h:10577:12:uint32_t tflite::Model::version() const	1
+schema_generated.h:16225:29:const tflite::Model* tflite::GetModel(const void*)	1
+op_resolver.h:35:11:tflite::OpResolver::~OpResolver()	1
+op_resolver.h:35:11:virtual tflite::OpResolver::~OpResolver()	1
+micro_op_resolver.h:53:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(tflite::BuiltinOperator, int) const	1
+micro_op_resolver.h:60:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	1
+micro_op_resolver.h:68:3:tflite::MicroOpResolver::~MicroOpResolver()	1
+micro_op_resolver.h:68:3:virtual tflite::MicroOpResolver::~MicroOpResolver()	1
+main.cpp:127:37:void __tcf_0()	1
+main.cpp:143:44:void __tcf_1()	1
+main.cpp:157:126:void __tcf_2()	1
+main.cpp:90:5:int main()	12
+main.cpp:215:6:void SystemClock_Config()	3
+main.cpp:262:13:void MX_TIM1_Init()	7
+main.cpp:337:13:void MX_USART2_UART_Init()	2
+main.cpp:370:13:void MX_GPIO_Init()	1
+main.cpp:403:17:void DebugLog(const char*)	1
+main.cpp:412:6:void Error_Handler()	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	1
+base.h:373:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	1
+base.h:373:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	1
+base.h:373:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	1
+flatbuffers.h:2434:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	2
+flatbuffers.h:2086:31:const T* flatbuffers::GetRoot(const void*) [with T = tflite::Model]	1
+op_resolver.h:27:7:constexpr tflite::OpResolver::OpResolver()	1
+micro_op_resolver.h:35:7:constexpr tflite::MicroOpResolver::MicroOpResolver()	1
+micro_mutable_op_resolver.h:36:12:tflite::MicroMutableOpResolver<tOpCount>::MicroMutableOpResolver(tflite::ErrorReporter*) [with unsigned int tOpCount = 1]	1
+micro_mutable_op_resolver.h:184:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddFullyConnected() [with unsigned int tOpCount = 1]	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = long int]	1
+base.h:362:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	1
+flatbuffers.h:2079:25:T* flatbuffers::GetMutableRoot(void*) [with T = tflite::Model]	1
+micro_mutable_op_resolver.h:397:16:TfLiteStatus tflite::MicroMutableOpResolver<tOpCount>::AddBuiltin(tflite::BuiltinOperator, const TfLiteRegistration&, tflite::MicroOpResolver::BuiltinParseFunction) [with unsigned int tOpCount = 1]	7
+micro_mutable_op_resolver.h:39:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(tflite::BuiltinOperator) const [with unsigned int tOpCount = 1]	4
+micro_mutable_op_resolver.h:34:7:tflite::MicroMutableOpResolver<1>::~MicroMutableOpResolver()	1
+micro_mutable_op_resolver.h:34:7:virtual tflite::MicroMutableOpResolver<1>::~MicroMutableOpResolver()	1
+micro_mutable_op_resolver.h:51:29:const TfLiteRegistration* tflite::MicroMutableOpResolver<tOpCount>::FindOp(const char*) const [with unsigned int tOpCount = 1]	4
+micro_mutable_op_resolver.h:62:41:TfLiteStatus (* tflite::MicroMutableOpResolver<tOpCount>::GetOpDataParser(tflite::BuiltinOperator) const)(const tflite::Operator*, tflite::ErrorReporter*, tflite::BuiltinDataAllocator*, void**) [with unsigned int tOpCount = 1]	3

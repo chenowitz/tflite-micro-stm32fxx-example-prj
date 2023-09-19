@@ -1,0 +1,3 @@
+../tflite-micro-lib/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c:37:13:buffer_scale_back_q15_to_q7_and_clamp	32	static
+../tflite-micro-lib/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c:239:12:arm_avgpool_s8	136	static
+../tflite-micro-lib/tensorflow/lite/micro/tools/make/downloads/cmsis/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c:347:9:arm_avgpool_s8_get_buffer_size	16	static
