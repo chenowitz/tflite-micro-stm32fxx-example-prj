@@ -8366,6 +8366,25 @@ Discarded input sections
  .debug_frame   0x0000000000000000      0xa70 ./tflite-micro-lib/tensorflow/lite/micro/all_ops_resolver.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./tflite-micro-lib/tensorflow/lite/micro/all_ops_resolver.o
+ .group         0x0000000000000000        0xc ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .text          0x0000000000000000        0x0 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .data          0x0000000000000000        0x0 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .bss           0x0000000000000000        0x0 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .text.DebugLog
+                0x0000000000000000       0x14 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_info    0x0000000000000000       0x60 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_abbrev  0x0000000000000000       0x5d ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_ranges  0x0000000000000000       0x10 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_macro   0x0000000000000000       0x1b ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_macro   0x0000000000000000      0xb50 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_line    0x0000000000000000       0xdb ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_str     0x0000000000000000     0x316a ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .comment       0x0000000000000000       0x51 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .debug_frame   0x0000000000000000       0x38 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
  .group         0x0000000000000000        0xc ./tflite-micro-lib/tensorflow/lite/micro/memory_helpers.o
  .group         0x0000000000000000        0xc ./tflite-micro-lib/tensorflow/lite/micro/memory_helpers.o
  .group         0x0000000000000000        0xc ./tflite-micro-lib/tensorflow/lite/micro/memory_helpers.o
@@ -32362,6 +32381,7 @@ LOAD ./tflite-micro-lib/tensorflow/lite/core/api/tensor_utils.o
 LOAD ./tflite-micro-lib/tensorflow/lite/kernels/internal/quantization_util.o
 LOAD ./tflite-micro-lib/tensorflow/lite/kernels/kernel_util.o
 LOAD ./tflite-micro-lib/tensorflow/lite/micro/all_ops_resolver.o
+LOAD ./tflite-micro-lib/tensorflow/lite/micro/debug_log.o
 LOAD ./tflite-micro-lib/tensorflow/lite/micro/memory_helpers.o
 LOAD ./tflite-micro-lib/tensorflow/lite/micro/micro_allocator.o
 LOAD ./tflite-micro-lib/tensorflow/lite/micro/micro_error_reporter.o

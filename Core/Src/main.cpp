@@ -401,6 +401,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+// Custom implementation of DebugLog from Tensorflow
 extern "C" void DebugLog(const char* s) {
 	HAL_UART_Transmit(&huart2, (uint8_t *)s, strlen(s), 100);
 }

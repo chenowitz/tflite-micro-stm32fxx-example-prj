@@ -2689,6 +2689,7 @@ static void MX_GPIO_Init(void)
 080018f4 <DebugLog>:
 
 /* USER CODE BEGIN 4 */
+// Custom implementation of DebugLog from Tensorflow
 extern "C" void DebugLog(const char* s) {
  80018f4:	b580      	push	{r7, lr}
  80018f6:	b082      	sub	sp, #8

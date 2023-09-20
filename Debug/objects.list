@@ -30,6 +30,7 @@
 "./tflite-micro-lib/tensorflow/lite/kernels/internal/quantization_util.o"
 "./tflite-micro-lib/tensorflow/lite/kernels/kernel_util.o"
 "./tflite-micro-lib/tensorflow/lite/micro/all_ops_resolver.o"
+"./tflite-micro-lib/tensorflow/lite/micro/debug_log.o"
 "./tflite-micro-lib/tensorflow/lite/micro/memory_helpers.o"
 "./tflite-micro-lib/tensorflow/lite/micro/micro_allocator.o"
 "./tflite-micro-lib/tensorflow/lite/micro/micro_error_reporter.o"
